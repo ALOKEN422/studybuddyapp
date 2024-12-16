@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    height: 220vh; /* Full viewport height */
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background: linear-gradient(to right, #004aad, #8ecae6);
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #023e8a;
+    padding: 1.5em 0;
+    color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  main {
+    padding: 2em;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  .feature {
+    margin: 1em auto;
+    padding: 1.5em;
+    border-radius: 10px;
+  }
+  
+  input, button {
+    padding: 0.8em;
+    border-radius: 5px;
+    border: none;
+    margin: 0.5em 0;
+    font-size: 1rem;
+  }
+  
+  input {
+    width: 70%;
+  }
+  
+  button {
+    background-color: #0077b6;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #023e8a;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background: rgba(255, 255, 255, 0.26);
+    margin: 0.5em 0;
+    padding: 0.8em;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #023e8a;
+    padding: 1em;
+    color: #ffffff;
+    font-size: 0.9rem;
+  }
+
+  header .logo {
+    width: 86px;
+    margin-right: 20px;
+  }
+
+  header .logo {
+    width: 150px; /* Set the desired width */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    margin-right: 1em; /* Optional: Adds space between the logo and text */
+  }
